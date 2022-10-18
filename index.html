@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="general_settings.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="about_me.css" />
+    <link rel="stylesheet" href="services.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header_text">
+        <nav>
+          <input type="checkbox" id="toggle_button" />
+          <label for="toggle_button">
+            <span class="material-symbols-rounded">menu</span>
+          </label>
+          <ul>
+            <li><a href="#about_me_section">Über Mich</a></li>
+            <li><a href="#services_section">Dienstleistungen</a></li>
+            <li><a href="#more_information_section">Mehr Informationen</a></li>
+          </ul>
+        </nav>
+        <h1>
+          Denny Sock, <br /><span style="color: var(--main-brand-color)"
+            >Developer</span
+          >
+        </h1>
+        <p class="subheading">
+          Kenntnisse im Bereich HTML, Python, Javascript, Java, C++ und SQL
+        </p>
+      </div>
+      <div class="circle">
+        <img src="images/ich1.jpeg" alt="" />
+      </div>
+    </header>
+    <section id="about_me_section">
+      <img src="images/ich.jpeg" alt="" />
+      <div class="about_me_container">
+        <h2>Über Mich</h2>
+        <p>
+          Hey, ich heiße Denny und bin 22 Jahre alt. 
+          <br/>Programmieren hat mich schon immer begeistert, da man aus dem nichts Dinge erschaffen kann, die anderen leuten ihr Leben vereinfachen können oder einfach nur spaß bringen. 
+          <br/>Derzeit studiere Wirtschaftsinformatik an der Universität Osnabrück und arbeite nebenbei bei einem mittelständigen Unternehmen als IT-Arbeitskraft.
+          <br/>Dort bin ich für verschiedenste Probleme und Projekte zuständig, wodurch ich auch vieles neues mir Online selbst beibringe. So konnte ich bsp. Erfahrung sammeln, wie man eine PDF Datei mittels Javascript programmieren und automatisieren kann oder aber wie man eine GUI baut die einem Arbeitsschritte und Zeit ersparen soll.
+          <br/>Meine Freizeit verbringe ich hauptsächlich mit Freunden unterwegs, mit meiner Freundin oder aber mit Fitness im Gym.
+        </p>
+      </div>
+    </section>
+    <section id="services_section">
+      <h2>Dienst&shyleistungen</h2>
+      <div class="flex_container">
+        <div class="card">
+          <h3>Programmierung</h3>
+          <p>
+            Sie haben Interesse an einer eigen programmierten GUI, benötigen hilfe bei der Ausarbeitung eines solchen Projekts oder haben anderweitig Interesse an Programmierungen?
+          </p>
+          <a href="">Buchen</a>
+        </div>
+        <div class="card">
+          <h3>Webseite</h3>
+          <p>
+            Sie haben Interesse an einer Webseite für Ihr Unternehmen oder als Privatperson?
+          </p>
+          <a href="">Buchen</a>
+        </div>
+        <div class="card">
+          <h3>Beratung</h3>
+          <p>
+            Sie haben allgemeine fragen bezüglich Ihrer IT, Programme oder anderweitige Aufträge?
+          </p>
+          <a href="">Buchen</a>
+        </div>
+      </div>
+    </section>
+    <footer id="more_information_section">
+      <h2>Mehr Informationen</h2>
+      <div class="grid_container">
+        <div id="item1" class="grid_item">
+          <a href="https://www.instagram.com/dennymity/" target="_blank"><img src="images/instagram-svgrepo-com.svg" alt="" /></a>
+          <div>
+            <h3>Instagram</h3>
+            <p>
+              Auf meinem Instagram teile ich gerne Erlebnisse aus meinem privaten Leben
+            </p>
+          </div>
+        </div>
+        <div id="item2" class="grid_item">
+          <img src="images/linkedin-svgrepo-com.svg" alt="">
+          <h3>LinkedIn</h3>
+        </div>
+        <div id="item3" class="grid_item">
+          <h3>Kontakt</h3>
+            <p>Um mich zu erreichen kann man mir einfach bei meinen Socials schreiben. Anderenfalls besteht die möglichkeit mich über meine E-Mail zu erreichen: </p>
+            <p>
+              <a href="mailto:denny.sock@gmail.com">denny.sock@gmail.com.</a>
+          </p>
+        </div>
+        <div id="item4" class="grid_item">
+          <a href="https://github.com/dennymity" target="_blank"><img src="images/github-svgrepo-com.svg" alt=""></a>
+          <h3>Github</h3>
+        </div>
+        <div id="item5" class="grid_item">
+          <img src="images/youtube-svgrepo-com.svg" alt="" />
+          <div>
+            <h3>YouTube</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              officia assumenda ipsam distinctio excepturi facilis.
+            </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
